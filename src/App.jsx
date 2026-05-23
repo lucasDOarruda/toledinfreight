@@ -134,42 +134,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* CONTACT */}
-      <section className="contact" id="contact">
-        <div className="container contact-inner">
-          <div className="contact-text">
-            <span className="section-label">Ready to Move</span>
-            <h2>Get a Quote Today</h2>
-            <p>
-              Tell us what you need to move, where it is going, and when.<br />
-              We will get back to you fast with a straight answer.
-            </p>
-            <ul className="contact-details">
-              <li>
-                <span className="contact-icon">📞</span>
-                <span>Call or WhatsApp us directly</span>
-              </li>
-              <li>
-                <span className="contact-icon">📧</span>
-                <span>info@toledinexpress.com.au</span>
-              </li>
-              <li>
-                <span className="contact-icon">📍</span>
-                <span>Australia-wide operations</span>
-              </li>
-            </ul>
-          </div>
-          <form className="contact-form">
-            <input type="text" placeholder="Your Name" required />
-            <input type="tel" placeholder="Phone Number" required />
-            <input type="email" placeholder="Email Address" />
-            <input type="text" placeholder="Pickup Location" />
-            <input type="text" placeholder="Delivery Location" />
-            <textarea placeholder="What needs to move? (pallets, freight, equipment...)" rows={4} />
-            <button type="submit" className="btn-primary full">Send Enquiry</button>
-          </form>
-        </div>
-      </section>
 
       {/* WHATSAPP FLOAT */}
       <a
