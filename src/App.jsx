@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import logo from '/TOLEDINHO-EXPRESS-LOGO-FINAL-2.png'
 
@@ -19,6 +20,9 @@ const reasons = [
 ]
 
 export default function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
+  const closeMenu = () => setMenuOpen(false)
+
   return (
     <div className="site">
 
@@ -32,7 +36,18 @@ export default function App() {
             <li><a href="#contact">Get a Quote</a></li>
             <li><a href="https://www.movingthings.com.au/removalist/PrSvg7YmQOe3JtZsXXoUyBFPGmg2" target="_blank" rel="noopener noreferrer" className="nav-cta">Book Now</a></li>
           </ul>
+          <button className="hamburger" onClick={() => setMenuOpen(o => !o)} aria-label="Menu">
+            <span /><span /><span />
+          </button>
         </div>
+        {menuOpen && (
+          <div className="mobile-menu">
+            <a href="#services" onClick={closeMenu}>Services</a>
+            <a href="#why" onClick={closeMenu}>Why Us</a>
+            <a href="#contact" onClick={closeMenu}>Get a Quote</a>
+            <a href="https://www.movingthings.com.au/removalist/PrSvg7YmQOe3JtZsXXoUyBFPGmg2" target="_blank" rel="noopener noreferrer" className="mobile-book" onClick={closeMenu}>Book Now</a>
+          </div>
+        )}
       </nav>
 
       {/* HERO */}
