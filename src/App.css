@@ -128,6 +128,14 @@
   letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
+.hero-brand {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 16px;
+}
 .hero-highlight { color: #FFD800; }
 .hero-sub {
   color: rgba(255,255,255,0.72);

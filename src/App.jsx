@@ -55,6 +55,7 @@ export default function App() {
         <div className="hero-overlay" />
         <div className="hero-content">
           <span className="hero-badge">Australia-Wide Transport & Logistics</span>
+          <p className="hero-brand">Toledinho Express</p>
           <h1 className="hero-title">
             We Move<br />
             <span className="hero-highlight">What Needs</span><br />
