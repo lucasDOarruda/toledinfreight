@@ -150,6 +150,35 @@ export default function App() {
         <span>WhatsApp Us</span>
       </a>
 
+      {/* SEO SECTION */}
+      <section className="seo-section">
+        <div className="container">
+          <h2>Sydney Removalist & Australia-Wide Transport</h2>
+          <p>
+            Toledin Express is a professional removalist and freight company based in Sydney, NSW.
+            We specialise in pallet transport, interstate removals, furniture moving, commercial freight,
+            and direct logistics solutions across Australia. Whether you need a Sydney to Melbourne removalist,
+            a Sydney to Brisbane freight service, or a reliable pallet courier across NSW — we get it done.
+          </p>
+          <h3>Our Transport Services Include:</h3>
+          <ul>
+            <li>Sydney removalist — local and interstate</li>
+            <li>Pallet transport Sydney & Australia-wide</li>
+            <li>Interstate removals — Sydney to Melbourne, Brisbane, Adelaide, Perth</li>
+            <li>Commercial freight & business relocation</li>
+            <li>Equipment and machinery transport NSW</li>
+            <li>Stock and inventory delivery</li>
+            <li>Furniture removalist Sydney</li>
+            <li>Office removals and business moves</li>
+            <li>Direct freight and same-day delivery Sydney</li>
+          </ul>
+          <p>
+            Serving Sydney, Western Sydney, Parramatta, Liverpool, Blacktown, Penrith, Campbelltown,
+            Newcastle, Wollongong, Central Coast, and all interstate routes Australia-wide.
+          </p>
+        </div>
+      </section>
+
       {/* FOOTER */}
       <footer className="footer">
         <div className="container footer-inner">

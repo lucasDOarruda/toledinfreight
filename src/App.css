@@ -397,6 +397,44 @@
   font-size: 12px;
 }
 
+/* ─── SEO SECTION ─── */
+.seo-section {
+  background: #f0f0f0;
+  padding: 60px 0;
+  border-top: 1px solid #e0e0e0;
+}
+.seo-section h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 16px;
+}
+.seo-section h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #111;
+  margin: 20px 0 10px;
+}
+.seo-section p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.8;
+  max-width: 800px;
+}
+.seo-section ul {
+  padding-left: 20px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 32px;
+  max-width: 800px;
+}
+.seo-section ul li {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.7;
+}
+
 /* ─── WHATSAPP FLOAT ─── */
 .whatsapp-float {
   position: fixed;
